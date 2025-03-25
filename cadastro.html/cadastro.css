@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'bronco';
+}
+
+@font-face {
+    font-family: 'bronco';
+    src: url(../fonts/BroncoPersonalUse.ttf);
+}
+
+body{
+    background-image: url(../images/sunset-clouds-anime-scenery-4k-wallpaper-uhdpaper.com-647@0@j.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center bottom;
+    display: flex;
+    height: 100vh;
+}
+
+#container-external{
+    background-color: rgba(255, 255, 255, 0.34);
+    border-radius: 30px;
+    box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.673);
+    margin: auto;
+    justify-items: center;
+    height: 350px;
+    width: 450px;
+}
+
+h1{
+    padding-top: 30px;
+    text-shadow: 0px 2px 3px black;
+}
+
+p{
+    padding-top: 30px;
+}
+
+#iemail{
+    background-color: rgb(231, 218, 201);
+    text-align: center;
+    border-radius: 10px;
+    height: 40px;
+    width: 300px;
+    border: none;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.673);
+    font-size: 1.30em;
+
+    -webkit-animation-fill-mode: background;
+    -webkit-background-clip: transparent;
+}
+
+#isenha{
+    background-color: rgb(231, 218, 201);
+    text-align: center;
+    border-radius: 10px;
+    height: 40px;
+    width: 300px;
+    border: transparent;
+    box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.673);
+    font-size: 1.30em;
+
+    -webkit-animation-fill-mode: background;
+    -webkit-background-clip: transparent;
+}
+
+#iregister{
+    background-color: rgb(231, 218, 201);
+    text-align: center;
+    border-radius: 10px;
+    height: 30px;
+    width: 150px;
+    border: transparent;
+    box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.673);
+
+    -webkit-animation-fill-mode: background;
+    -webkit-background-clip: transparent;
+    font-size: 1.30em;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.30em;
+    text-shadow: 1px 2px 3px black;
+}
